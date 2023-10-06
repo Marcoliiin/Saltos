@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Saltos.js" ></script>
     <title>Saltos</title>
 </head>
-<body>
-<script src="Saltos.js" ></script>
+<body style="text-align: center">   
+
 <header><h1>Lista de saltadores</h1></header>
 
-<div class="">
+<div class="">  
 <label for="" class="">Nome do atleta: </label>
 <input id = "textinput1" name = "textinput" value = "" type = "text">              
 </div>
 <br>
 
-<div class="">
+<div class="linha">
 <label for="" class="">Salto número 1: </label>
 <input id = "textinput2" name = "textinput" value = "" type = "text">   
 </div>
@@ -33,6 +34,7 @@
 </div>
 <br>
 
+
 <div class="">
 <label for="" class="">Salto número 4: </label>
 <input id = "textinput5" name = "textinput" value = "" type = "text">
@@ -49,8 +51,11 @@
   
 <div>
 <br>
-<button class = "btn-class" type = "button" value = "checked" id = "btn-mostrar" onclick = "mostrarAtletas()" >Mostrar todos os atletas inscrevidos</button>
+<button class = "btn-class" type = "button" value = "checked" id = "btn-mostrar" onclick = "mostrarAtletas()" >Mostrar todos os atletas inscritos</button>
 </div>
+
+<h3 id="result1">Você não possui atletas inscritos</h3>
+<h3 id="result2"></h3>
 
 </body>
 </html>
